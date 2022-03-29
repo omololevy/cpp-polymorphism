@@ -23,3 +23,15 @@ class Assembly: public ProgLangs{
         cout << "Assembly language is used for communication with computer hardwares \n";
     }
 };
+
+int main(){
+    ProgLangs javascript;
+    Python faceDetection_py;
+    Assembly myAssembly;
+
+    javascript.languageUse();
+    faceDetection_py.languageUse();
+    myAssembly.languageUse();
+
+    return 0;
+}
