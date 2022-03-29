@@ -30,7 +30,7 @@ class Purchase{
         return deposit + principle * rate/100 * time;
     }
     int cash(int amount, int discount){
-        return amount - discount/100;
+        return amount - amount * discount/100;
     }
 };
 
