@@ -16,3 +16,10 @@ class Python: public ProgLangs{
     }
     
 };
+
+class Assembly: public ProgLangs{
+    public:
+    void languageUse(){
+        cout << "Assembly language is used for communication with computer hardwares \n";
+    }
+};
